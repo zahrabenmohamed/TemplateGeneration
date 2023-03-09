@@ -14,4 +14,8 @@ public class Document {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private String documentId;
+
+    private String title;
+
+
 }
